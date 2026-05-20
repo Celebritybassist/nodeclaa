@@ -5,6 +5,7 @@ function findminimumvalue(m, n) {
     console.log(findminimumvalue(-3, 2)); // Output: -3
     console.log(findminimumvalue(0, 0)); // Output: 0
     }
+    
     // Write a javascript code to reverse your name
     let name = "Aiyedun Miracle";
 
@@ -21,5 +22,17 @@ function findminimumvalue(m, n) {
     console.log(names);
 
     // write a javascript code to find the factor of a number using the concept of recursion
+    function factorial(n) {
+        // Base case
+        if (n === 0 || n === 1) {
+            return 1;
+        }
+
+        // Recursive case
+        return n * factorial(n - 1);
+        }
+
+        // Example usage
+        console.log(factorial(5)); // 120
     
     
